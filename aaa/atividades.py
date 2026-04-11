@@ -174,3 +174,40 @@
 # verificar_desafio = (t>40 or u>80) and g== "True" and "CRITICO" or (t>40 or u>80) and g== "False" and "ALTO" or t>=25 and t<=40 and u>=50 and u<=80 and "MÉDIO" or "BAIXO"
 # print(verificar_desafio)
 
+
+
+
+
+
+
+
+
+# Use dicionário, variáveis ou listas … 
+
+# Contexto:
+# Uma loja oferece um cupom especial. O cliente ganha o cupom se atender a pelo menos  das seguintes condições:
+
+# Se for VIP (responde "sim" ou "não")
+# Valor da compra acima de R$ 200
+# Primeira compra no mês (responder "sim" ou "nao")
+
+# Além disso, o cupom  pode ser aplicado se o cliente tiver  no histórico. 
+
+# Tarefa Receba:
+
+# vip (string "sim" ou "nao")
+# valor (float)
+# primeira_compra (string "sim" ou "nao")
+# Reclamação 
+
+# Determine se o cliente  ("Cupom liberado") ou  ("Sem cupom"),  (SEM IF , SEM LOOP, SEM FUNÇÃO)
+
+
+
+
+vip = input("Vip?(s/n):")
+valor = float(input("Valor(R$):"))
+primeira_compra=input("É a primeira compra do mês?(s/n):")
+verificar11= (vip=="s" or valor >200 or primeira_compra=="s") and "Cupom liberado" or "Sem cupom"
+print(verificar11)
+
